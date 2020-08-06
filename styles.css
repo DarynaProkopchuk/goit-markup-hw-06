@@ -975,17 +975,24 @@ h4 {
 .modal-form-custom-checkbox {
 	display: inline-block;
 	width: 16px;
-	height: 16px;
-	outline: 1px solid #000;
-	margin-right: 10px;
+	height: 15px;
+	background-color: var(--accent-color);
+	margin-right: 7px;
 }
 
 .modal-form-option-span {
 	font-size: 12px;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: #757575;
 }
 
 .modal-form-option-span a {
-	color: #3498db;
+	color: var(--accent-color);
 }
 
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
@@ -1036,7 +1043,7 @@ h4 {
 	cursor: pointer;
 	transition: color 250ms linear;
 	background: #ffffff;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+
 	box-sizing: border-box;
 }
 
