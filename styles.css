@@ -972,7 +972,7 @@ h4 {
 
 .modal-form-input:focus + .modal-form-label,
 .modal-form-input:not(:placeholder-shown) + .modal-form-label {
-	transform: translateY(-30px);
+	transform: translateY(-40px);
 	color: var(--accent-color);
 }
 
@@ -1077,6 +1077,9 @@ h4 {
 	color: var(--text-color);
 	box-sizing: border-box;
 	margin: 0;
+}
+.svg-form-close-btn{
+	fill: var(--primary-text-color);
 }
 
 .modal-close-btn:hover {
