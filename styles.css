@@ -999,7 +999,7 @@ h4 {
 	height: 15px;
 	background-color: var(--primary-white-color);
 	margin-right: 7px;
-	border:solid 1px var(--primary-text-color);
+	border: solid 1px var(--primary-text-color);
 }
 
 .modal-form-option-span {
@@ -1012,7 +1012,7 @@ h4 {
 	letter-spacing: 0.03em;
 	color: #757575;
 }
-.svg-form-checkbox{
+.svg-form-checkbox {
 	fill: var(--primary-white-color);
 }
 .modal-form-option-span a {
@@ -1021,7 +1021,8 @@ h4 {
 
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
 	background-color: var(--accent-color);
-	}
+	border: solid 1px var(--primary-white-color);
+}
 
 .modal-form-btn {
 	letter-spacing: 0.06em;
@@ -1029,19 +1030,12 @@ h4 {
 	height: 50px;
 	border-radius: 4px;
 	align-items: center;
-	/*background-color: transparent;*/
-	/*	padding-top: 10px;
-	padding-right: 55px;
-	padding-bottom: 10px;
-	padding-left: 55px;*/
 	margin-bottom: 40px;
 	margin-left: 124px;
-	/*margin-right: 164px;*/
 	cursor: pointer;
 	color: var(--primary-white-color);
 	transition: background-color 250ms linear, color 250ms linear;
 	background: var(--accent-color);
-	/*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);*/
 }
 
 .modal-form-btn:hover,
@@ -1066,20 +1060,12 @@ h4 {
 	cursor: pointer;
 	transition: color 250ms linear;
 	background: var(--primary-white-color);
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 24px;
-	border: 1px solid rgba(163, 86, 86, 0.1);
-	/*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
-	letter-spacing: 0.03em;
-	color: var(--text-color);
-	box-sizing: border-box;
 	margin: 0;
+	border: 1px solid rgba(163, 86, 86, 0.1);
 }
-.svg-form-close-btn{
-	fill: var(--primary-text-color);
+.svg-form-close-btn {
+	fill: #000000;
+	align-items: center;
 }
 
 .modal-close-btn:hover {
@@ -1087,13 +1073,7 @@ h4 {
 }
 .svg-form {
 	position: absolute;
-	/*top: 107px;
-	left: 59px;*/
-	
-    display: inline-block;
+	display: inline-block;
 	transform: translate(15px, -25px);
 	overflow: hidden;
-}
-}
-.svg-form-close-btn {
 }
