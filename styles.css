@@ -1065,6 +1065,8 @@ h4 {
 }
 .svg-form-close-btn {
 	fill: #000000;
+	position: absolute;
+	transform: translate(-10px, -10px);
 }
 
 .modal-close-btn:hover .svg-form-close-btn {
