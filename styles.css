@@ -1057,6 +1057,8 @@ h4 {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
+	display: block;
+	align-items: center;
 	cursor: pointer;
 	transition: color 250ms linear;
 	background: var(--primary-white-color);
@@ -1065,10 +1067,9 @@ h4 {
 }
 .svg-form-close-btn {
 	fill: #000000;
-	align-items: center;
 }
 
-.modal-close-btn:hover {
+.modal-close-btn:hover .svg-form-close-btn {
 	fill: var(--accent-color);
 }
 .svg-form {
