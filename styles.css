@@ -969,7 +969,7 @@ h4 {
 
 .modal-form-input:focus + .modal-form-label,
 .modal-form-input:not(:placeholder-shown) + .modal-form-label {
-	transform: translate(-40px, -20px);
+	transform: translate(-30px, -40px);
 	color: var(--accent-color);
 }
 
@@ -1010,7 +1010,7 @@ h4 {
 	color: #757575;
 }
 .svg-form-checkbox {
-	fill: tomato;
+	fill: var(--primary-white-color);
 }
 
 .modal-form-option-span a {
@@ -1079,5 +1079,8 @@ h4 {
 }
 
 .modal-form-input:focus ~ .svg-form {
+	fill: var(--accent-color);
+}
+.modal-form-checkbox:checked ~ .svg-form-checkbox {
 	fill: var(--accent-color);
 }
