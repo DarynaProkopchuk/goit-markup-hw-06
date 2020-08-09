@@ -1073,6 +1073,7 @@ h4 {
 	fill: var(--accent-color);
 }
 .svg-form {
+	fill: black;
 	position: absolute;
 	display: inline-block;
 	transform: translate(15px, -25px);
@@ -1080,5 +1081,8 @@ h4 {
 }
 .modal-form-input:focus + .modal-form-label,
 .svg-form {
+	fill: var(--accent-color);
+}
+.modal-form-input:hover .svg-form {
 	fill: var(--accent-color);
 }
