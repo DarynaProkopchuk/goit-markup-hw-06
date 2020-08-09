@@ -1078,3 +1078,7 @@ h4 {
 	transform: translate(15px, -25px);
 	overflow: hidden;
 }
+.modal-form-input:focus + .modal-form-label,
+.svg-form {
+	fill: var(--accent-color);
+}
