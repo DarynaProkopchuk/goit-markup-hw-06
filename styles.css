@@ -1085,5 +1085,5 @@ h4 {
 	fill: var(--accent-color);
 }
 .modal-form-checkbox:checked ~ .svg-form-checkbox {
-	fill: var(--accent-color);
+	fill: var(--primary-white-color);
 }
