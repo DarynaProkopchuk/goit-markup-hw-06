@@ -1073,7 +1073,7 @@ h4 {
 	fill: var(--accent-color);
 }
 .svg-form {
-	fill: black;
+	fill: #000000;
 	position: absolute;
 	display: inline-block;
 	transform: translate(15px, -25px);
