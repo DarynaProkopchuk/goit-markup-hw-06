@@ -550,7 +550,7 @@ h4 {
 .section-clients-list-link:focus {
 	border: 1px solid var(--accent-color);
 }
-.section-clients-list-link:hover .client-item-svg {
+.section-clients-list-link:hover .client-item-svg .section-clients-list-link:focus .client-item-svg {
 	fill: var(--accent-color);
 }
 .section-client-list-link:focus .client-item-svg {
@@ -975,7 +975,8 @@ h4 {
 	width: 1px;
 	height: 1px;
 	margin: -1px;
-
+	background: var(--primary-white-color);
+	border: 0.2px solid var(--primary-white-color);
 	padding: 0;
 	clip: rect(0 0 0 0);
 	overflow: hidden;
@@ -1025,7 +1026,6 @@ h4 {
 	letter-spacing: 0.06em;
 	width: 200px;
 	height: 50px;
-
 	align-items: center;
 	margin-bottom: 40px;
 	margin-left: 124px;
