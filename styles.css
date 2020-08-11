@@ -508,31 +508,18 @@ h4 {
 	margin-right: 30px;
 }
 .section-client-list-link {
-	/*width: 170px;
-	height: 90px;
-	/*fill: #afb1b8;
-	box-sizing: border-box;
-	border-radius: 4px;
-	border: 1px solid #afb1b8;
-	cursor: pointer;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);*/
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	box-sizing: border-box;
-	border: var(--text-color);
-	background: #ffffff;
+	/*border: var(--text-color);*/
+	background: var(--primary-white-color);
 	width: 170px;
 	height: 90px;
-	mix-blend-mode: normal;
 	border: 1px solid #afb1b8;
 	box-sizing: border-box;
 	cursor: pointer;
 	border-radius: 4px;
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-h2 {
 	margin-bottom: 50px;
@@ -549,15 +536,13 @@ h4 {
 
 .section-client-list-link:hover,
 .section-client-list-link:focus {
-	border: var(--accent-color);
-	fill: var(--accent-color);
+	border: 1px solid var(--accent-color);
 }
-
+/*
 .client-item:hover,
 .client-item:focus {
 	color: var(--accent-color);
-	fill: var(--accent-color);
-}
+}*/
 
 .section-clients-list-link:hover {
 	border: 1px solid var(--accent-color);
