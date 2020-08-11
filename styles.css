@@ -1062,7 +1062,8 @@ h4 {
 	transform: translate(-10px, -10px);
 }
 
-.modal-close-btn:hover .svg-form-close-btn .modal-close-btn:focus .svg-form-close-btn {
+.modal-close-btn:hover .svg-form-close-btn,
+.modal-close-btn:focus .svg-form-close-btn {
 	fill: var(--accent-color);
 }
 .svg-form {
@@ -1073,7 +1074,8 @@ h4 {
 	overflow: hidden;
 }
 
-.modal-form-input:focus ~ .svg-form .modal-form-input:hover ~ .svg-form {
+.modal-form-input:focus ~ .svg-form,
+.modal-form-input:hover ~ .svg-form {
 	fill: var(--accent-color);
 }
 .modal-form-checkbox:checked ~ .svg-form-checkbox {
