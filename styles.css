@@ -544,16 +544,7 @@ h4 {
 	color: var(--accent-color);
 }*/
 
-.section-clients-list-link:hover {
-	border: 1px solid var(--accent-color);
-}
-.section-clients-list-link:focus {
-	border: 1px solid var(--accent-color);
-}
-.section-clients-list-link:hover .client-item-svg .section-clients-list-link:focus .client-item-svg {
-	fill: var(--accent-color);
-}
-.section-client-list-link:focus .client-item-svg {
+.section-client-list-link:hover .client-item-svg .section-client-list-link:focus .client-item-svg {
 	fill: var(--accent-color);
 }
 
